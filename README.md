@@ -18,11 +18,9 @@ Just easy like that and you've got a Naozumi-like name!
 ## What is considered as a Naozumi-like name?
 A name must pass the following rules to be considered as a Naozumi-like name:
 
-   1. Start with "Nao".
-
-   2. End with "i".
-
-   3. Has exactly 3 syllables.
+1. Start with "Nao".
+2. End with "i".
+3. Has exactly 3 syllables.
 
 
 And there you go! You have a brand new Naozumi-like name!
