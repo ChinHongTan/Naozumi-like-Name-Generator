@@ -9,16 +9,21 @@ Tired of coming up with new nicknames every time you created a new account? Then
 It is capable of generating a random Naozumi-like name instantly, so you don't need to think of new names anymore!
 
 ## How to use
-1. Clone this project into a folder
-2. Open the folder in Terminal
-3. Type `node .` and it's done!
+1. Install node.js
+2. Clone this project into a folder
+3. Open the folder in Terminal
+4. Type `node .` and it's done!
 Just easy like that and you've got a Naozumi-like name!
 
 ## What is considered as a Naozumi-like name?
-A name must pass the following rules to be considered as a Naozumi-like name.
+A name must pass the following rules to be considered as a Naozumi-like name:
+
 Rule No.1: Start with "Nao".
+
 Rule No.2: End with "i".
+
 Rule No.3: Has exactly 3 syllables.
+
 
 And there you go! You have a brand new Naozumi-like name!
 
