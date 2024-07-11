@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Naozumi nickname generator!</title>
+    <link rel="stylesheet" type="text/css" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="top-bar-left"></div>
+      <div class="top-bar-right">
+        <h1>Naozumi Nickname Generator</h1>
+      </div>
+    </div>
+    <div class="main">
+      <div class="side-bar">
+        <h3>Options</h3>
+        <button id="add">Option 1</button>
+        <button id="remove">Option 2</button>
+        <button id="clear">Option 3</button>
+      </div>
+      <div class="naozumi-generator">
+        <div class="naozumi-rect">
+          <div class="naozumi-title">
+            <h2>Naozumi nickname generator!</h2>
+          </div>
+          <div class="naozumi-holder">
+            <h3 id="naozumi">Naozumi names appears here</h3>
+          </div>
+          <p id="info"></p>
+          <button id="generate">Generate!</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./dist/renderer.js"></script>
+</html>

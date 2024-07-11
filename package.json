@@ -1,0 +1,25 @@
+{
+  "name": "naozumi-nickname-generator",
+  "version": "0.0.1",
+  "description": "An electron app that does one thing: Generate a Naozumi's nickname!",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "electron .",
+    "watch": "tsc -p tsconfig.json -w",
+    "build": "tsc --build tsconfig.json"
+  },
+  "keywords": [
+    "naozumi",
+    "electron"
+  ],
+  "author": "Chinono",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.0"
+  },
+  "dependencies": {
+    "typescript": "^5.5.3"
+  }
+}
